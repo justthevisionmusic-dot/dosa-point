@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dosa Point | Authentic South Indian Dosa & Pre-Order Menu</title>
+  <meta name="description" content="Official online pre-order & delivery menu for Dosa Point, Shop 69 Netaji Nagar Market. Serving authentic crispy dosas, uttapams, idli-vada, and chowmein since 1983.">
+  <meta name="keywords" content="Dosa Point, Netaji Nagar Market, 83 Madras Cafe, South Indian food, Masala Dosa, Ghee Roast, Uttapam, Pre order Dosa, Home Delivery">
+  
+  <!-- Favicon / Apple Touch Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥞</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Marigold Garland Border -->
+  <div class="garland-bar"></div>
+
+  <!-- Announcement Bar with Live Status & WhatsApp Location Drop -->
+  <div class="top-announcement">
+    <div class="announcement-left">
+      <span id="shopLiveStatusPill" class="status-badge">
+        <span class="pulse-dot"></span> Open Now (09:00 AM - 09:30 PM)
+      </span>
+      <span>📍 Shop No. 69, Netaji Nagar Market</span>
+    </div>
+    <div class="announcement-right">
+      <span>📞 Drop Your Location on WhatsApp: 
+        <a href="https://wa.me/917290995566?text=Hi%20Dosa%20Point%2C%20I%20would%20like%20to%20place%20an%20order" target="_blank" rel="noopener">7290995566</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Main Sticky Header -->
+  <header class="site-header">
+    <div class="header-container">
+      
+      <!-- Brand Logo / Emblem -->
+      <a href="#" class="brand">
+        <div class="brand-emblem">
+          <span class="emblem-title">DOSA POINT</span>
+          <span class="emblem-year">ESTD. 1983</span>
+        </div>
+        <div class="brand-text">
+          <h1>DOSA POINT</h1>
+          <p>Serving with love since 1983</p>
+          <span class="chain-tag">A chain of 83 Madras Cafe</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#menuSection" class="nav-link active">Menu</a></li>
+          <li><a href="#tawaStageSection" class="nav-link">Live Tawa</a></li>
+          <li><a href="#heritageSection" class="nav-link">Our Heritage</a></li>
+          <li><a href="#storeInfoSection" class="nav-link">Location & Timings</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <!-- Sound Effect Toggle -->
+        <button id="audioToggleBtn" class="audio-toggle-btn" title="Toggle Sound (Tawa Sizzle & Chimes)">
+          🔊
+        </button>
+
+        <!-- Cart Pill Button -->
+        <button class="cart-btn-pill btn-open-cart">
+          <div class="cart-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span class="cart-badge" style="display: none;">0</span>
+          </div>
+          <span>Pre-Order</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Traditional Arch Divider -->
+  <div class="ethnic-arch-border"></div>
+
+  <!-- Order Switcher Bar (Pre-order Takeaway vs Home Delivery) -->
+  <section class="order-mode-section">
+    <div class="order-mode-container">
+      <div class="mode-toggle-group">
+        <button id="modeBtnPreorder" class="mode-btn active">
+          <span>🛍️ Pre-Order & Collect</span>
+          <span class="badge-pill">Skip the wait</span>
+        </button>
+        <button id="modeBtnDelivery" class="mode-btn">
+          <span>🛵 Home Delivery</span>
+          <span class="badge-pill">Min. ₹350</span>
+        </button>
+      </div>
+
+      <div class="mode-info-message" id="modeInfoText">
+        🛍️ <strong>Pre-Order (Takeaway / Dine-in)</strong>: Beat the rush! Freshly made upon your arrival. No minimum order limit.
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      
+      <div class="hero-text-col">
+        <div class="hero-heritage-pill">
+          <span>🪔 40+ Years of Madras Tradition</span>
+        </div>
+        <h2 class="hero-title">
+          Crispy Golden Dosas, <br>
+          <span class="highlight">Sizzling & Steaming</span> Fresh.
+        </h2>
+        <p class="hero-desc">
+          Slow-fermented rice & lentil batter, hand-churned white butter, pure desi ghee, and heirloom spice blends. Pre-order online before visiting our shop to get it freshly served, or enjoy home delivery right to your door.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menuSection" class="btn-primary">
+            <span>Explore Menu & Order</span>
+            <span>→</span>
+          </a>
+          <button id="heroSizzleBtn" class="btn-tawa-sizzle">
+            <span>🔥 Hear the Tawa Sizzle</span>
+          </button>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">🌿</div>
+            <div class="highlight-text">
+              <strong>100% Pure Veg</strong>
+              <span>Clean traditional kitchen</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🧈</div>
+            <div class="highlight-text">
+              <strong>Pure Desi Ghee</strong>
+              <span>Amul butter & authentic spices</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🥣</div>
+            <div class="highlight-text">
+              <strong>Trio of Chutneys</strong>
+              <span>With hot drumstick sambar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Media Card -->
+      <div class="hero-media-wrapper">
+        <div class="hero-corner-sticker">
+          <span>✨ Madras Cafe Legacy</span>
+        </div>
+        <div class="hero-media-card">
+          <img src="assets/images/hero_dosa.jpg" alt="Golden Crispy Masala Dosa on fresh banana leaf with sambar and chutneys" width="600" height="420">
+          <div class="hero-floating-badge">
+            <span class="badge-sparkle">🥞</span>
+            <div class="badge-text">
+              <div class="title">Bestseller Masala Dosa</div>
+              <div class="subtitle">Roasted crisp with spiced potato mash • ₹110</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Tawa Sizzle Live Stage Widget -->
+  <section class="tawa-interactive-bar" id="tawaStageSection">
+    <div class="tawa-box">
+      
+      <div class="tawa-visual-col">
+        <div class="steam-emitter">
+          <div class="steam-particle"></div>
+          <div class="steam-particle"></div>
+          <div class="steam-particle"></div>
+        </div>
+        <div class="cast-iron-tava" id="interactiveTava" title="Click to hear the dosa sizzle!">
+          <div class="tawa-crepe" id="tawaCrepe">
+            <div class="tawa-masala-core"></div>
+          </div>
+        </div>
+        <span style="font-size: 0.76rem; color: #fde047; margin-top: 10px; letter-spacing: 0.5px;">
+          👆 Tap the Cast-Iron Tawa to Sizzle!
+        </span>
+      </div>
+
+      <div class="tawa-content-col">
+        <h3>Live Cast-Iron Tawa Experience</h3>
+        <p id="tavaStatusText">
+          Watch our seasoned iron tawa sizzle at 220°C as pure desi ghee meets stone-ground fermented batter. Feel the authentic Madras aroma!
+        </p>
+        <div class="tawa-interactive-controls">
+          <button class="btn-tawa-action" id="btnTawaPour">1. 🥣 Swirl Batter</button>
+          <button class="btn-tawa-action" id="btnTawaMasala">2. 🥔 Add Masala</button>
+          <button class="btn-tawa-action" id="btnTawaGhee">3. 🧈 Drizzle Desi Ghee</button>
+          <button class="btn-tawa-action active" id="btnTawaCrisp">4. 🔥 Crisp & Fold</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Menu Catalog & Filter Section -->
+  <main class="menu-section" id="menuSection">
+    
+    <div class="menu-header-bar">
+      <span class="section-eyebrow">Our Heirloom Offerings</span>
+      <h2 class="section-title">Authentic South Indian Menu</h2>
+      <p class="section-subtitle">
+        Every dosa is roasted fresh on order with piping hot drumstick sambar and fresh ground coconut and spicy tomato chutneys.
+      </p>
+    </div>
+
+    <!-- Search and Controls Toolbar -->
+    <div class="menu-controls">
+      
+      <!-- Live Search Box -->
+      <div class="search-box-row">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name, spice, or ingredient (e.g., Ghee, Paneer, Rava, Vada)..." autocomplete="off">
+        <button id="searchClearBtn" class="search-clear-btn" title="Clear search">✕</button>
+      </div>
+
+      <!-- Category Filter Chips -->
+      <div class="category-chips-scroll">
+        <button class="category-chip active" data-category="all">
+          <span>🌟 All Items</span>
+          <span class="chip-count">22</span>
+        </button>
+        <button class="category-chip" data-category="dosa">
+          <span>🥞 Signature Dosas</span>
+          <span class="chip-count">11</span>
+        </button>
+        <button class="category-chip" data-category="rava">
+          <span>✨ Rava Specials</span>
+          <span class="chip-count">2</span>
+        </button>
+        <button class="category-chip" data-category="uttapam">
+          <span>🥘 Soft Uttapams</span>
+          <span class="chip-count">4</span>
+        </button>
+        <button class="category-chip" data-category="tiffin">
+          <span>🥣 Traditional Tiffins</span>
+          <span class="chip-count">2</span>
+        </button>
+        <button class="category-chip" data-category="chinese">
+          <span>🥢 Indo-Chinese</span>
+          <span class="chip-count">3</span>
+        </button>
+      </div>
+
+      <!-- Secondary Quick Filter Pills -->
+      <div class="secondary-filters">
+        <button class="sub-filter-btn" data-subfilter="bestseller">🔥 Bestsellers</button>
+        <button class="sub-filter-btn" data-subfilter="chef">⭐ Chef's Special</button>
+        <button class="sub-filter-btn" data-subfilter="ghee">🧈 Pure Ghee & Butter</button>
+        <button class="sub-filter-btn" data-subfilter="spicy">🌶️ Spicy Delights</button>
+        <button class="sub-filter-btn" data-subfilter="paneer">🧀 Paneer Rich</button>
+      </div>
+
+      <!-- Filter Summary Row with View Switcher -->
+      <div class="filter-summary-row">
+        <span id="menuResultsCount">Showing 22 of 22 South Indian delicacies</span>
+        <div class="filter-summary-right">
+          <span class="pure-veg-tag">🌿 100% Pure Vegetarian</span>
+          <div class="view-mode-toggle" id="viewModeToggle">
+            <button class="view-btn active" id="viewGridBtn" title="Photo Cards View">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              <span>Cards</span>
+            </button>
+            <button class="view-btn" id="viewListBtn" title="Compact Cafe Menu List">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+              <span>Compact List</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Menu Cards Grid -->
+    <div class="menu-grid" id="menuGrid">
+      <!-- Populated dynamically via JS -->
+    </div>
+
+  </main>
+
+  <!-- Heritage & 40 Years Section -->
+  <section class="heritage-section" id="heritageSection">
+    <div class="heritage-container">
+      
+      <div class="heritage-content">
+        <div class="heritage-badge-box">
+          <h2>Serving with love since 1983</h2>
+          <p>
+            Started as part of the esteemed <strong>83 Madras Cafe</strong> family, Dosa Point has been a culinary landmark at Netaji Nagar Market for over four decades. We stay true to ancestral recipes: zero preservatives, natural stone-ground batter fermented for 14 hours, pure cow ghee, and fragrant sambar simmered with roasted coriander and shallots.
+          </p>
+          <div class="heritage-pillars">
+            <div class="pillar-card">
+              <h4>14-Hour Fermentation</h4>
+              <p>Naturally probiotic, airy, and easily digestible.</p>
+            </div>
+            <div class="pillar-card">
+              <h4>Fresh Stone Ground</h4>
+              <p>Chutneys ground daily in small fresh batches.</p>
+            </div>
+            <div class="pillar-card">
+              <h4>Pure Desi Ghee</h4>
+              <p>Golden aroma with authentic rich buttery crispness.</p>
+            </div>
+            <div class="pillar-card">
+              <h4>Direct Pre-Order</h4>
+              <p>Ready on your arrival, zero waiting in lines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heritage-gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/images/uttapam.jpg" alt="Thick fluffy Paneer and Onion Tomato Uttapams" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/idli_vada.jpg" alt="Steaming Sambar Vada and soft Idlis" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/chowmein.jpg" alt="Desi Indo-Chinese Paneer Chowmein" loading="lazy">
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/hero_dosa.jpg" alt="Classic Crispy Masala Dosa" loading="lazy">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Store Information & Contact Section -->
+  <section class="store-info-section" id="storeInfoSection">
+    <div class="store-card">
+      
+      <div class="store-details">
+        <h3>Visit Dosa Point</h3>
+        <p class="tagline">A chain of 83 Madras Cafe • Shop 69, Netaji Nagar Market</p>
+
+        <div class="store-meta-list">
+          <div class="meta-entry">
+            <span class="meta-entry-icon">📍</span>
+            <div>
+              <strong>Shop Address</strong>
+              <span>Shop Number 69, Netaji Nagar Market, New Delhi</span>
+            </div>
+          </div>
+          <div class="meta-entry">
+            <span class="meta-entry-icon">⏰</span>
+            <div>
+              <strong>Service Timings</strong>
+              <span>09:00 AM – 09:30 PM (Open All 7 Days)</span>
+            </div>
+          </div>
+          <div class="meta-entry">
+            <span class="meta-entry-icon">🛵</span>
+            <div>
+              <strong>Home Delivery Policy</strong>
+              <span>Minimum order ₹350/- • Drop your live WhatsApp location for direct dispatch!</span>
+            </div>
+          </div>
+          <div class="meta-entry">
+            <span class="meta-entry-icon">📞</span>
+            <div>
+              <strong>Order Hotline</strong>
+              <span>7290995566 (Calls & WhatsApp)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="store-actions-box">
+        <h4 style="color: #fef08a; font-family: var(--font-heading); margin-bottom: 4px;">Quick Pre-Order</h4>
+        <p style="font-size: 0.82rem; color: #d6d3d1; margin-bottom: 14px;">Place your order directly via WhatsApp or call our kitchen counters</p>
+        
+        <a href="https://wa.me/917290995566?text=Hi%20Dosa%20Point%2C%20I%20would%20like%20to%20place%20an%20order" target="_blank" rel="noopener" class="btn-whatsapp-order">
+          <span>💬 Order on WhatsApp</span>
+        </a>
+        <a href="tel:7290995566" class="btn-call-shop">
+          <span>📞 Call Shop (7290995566)</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Slide-Over Cart & Pre-Order Drawer -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer" id="cartDrawer">
+      
+      <div class="drawer-header">
+        <div>
+          <h3>Your Pre-Order</h3>
+          <span style="font-size: 0.76rem; color: var(--color-primary); font-weight: 600;">Dosa Point • Netaji Nagar</span>
+        </div>
+        <button class="btn-close-drawer" id="btnCloseDrawer" title="Close cart">✕</button>
+      </div>
+
+      <div class="drawer-body">
+        
+        <!-- Delivery Minimum Order Alert -->
+        <div class="delivery-min-notice" id="deliveryNotice" style="display: none;">
+          <div id="deliveryProgressText">⚠️ Minimum order for delivery is ₹350</div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar-fill" id="deliveryProgressBar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <!-- Cart Items Container -->
+        <div class="cart-items-list" id="cartItemsList">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Customer Pre-Order Details Form -->
+        <div class="order-details-form">
+          <div class="form-group">
+            <label for="custName">Your Name *</label>
+            <input type="text" id="custName" class="form-input" placeholder="e.g. Ramesh Kumar">
+          </div>
+
+          <div class="form-group">
+            <label for="custPhone">WhatsApp Mobile No. *</label>
+            <input type="tel" id="custPhone" class="form-input" placeholder="e.g. 9876543210">
+          </div>
+
+          <!-- Pre-order Arrival Selector -->
+          <div class="form-group" id="pickupTimeGroup">
+            <label for="pickupTimeSelect">Pickup / Arrival Time</label>
+            <select id="pickupTimeSelect" class="form-select">
+              <option value="In 15 - 20 minutes (Ready on Arrival)">⚡ In 15 - 20 minutes (Ready on Arrival)</option>
+              <option value="In 30 minutes">In 30 minutes</option>
+              <option value="In 45 minutes">In 45 minutes</option>
+              <option value="In 1 hour">In 1 hour</option>
+              <option value="Dine-in (Table Arrival)">Dine-in (Prepare when I reach shop)</option>
+            </select>
+          </div>
+
+          <!-- Home Delivery Address -->
+          <div class="form-group" id="deliveryAddressGroup" style="display: none;">
+            <label for="custAddress">Delivery Address & Landmark *</label>
+            <textarea id="custAddress" class="form-textarea" placeholder="Flat No., Building name, Netaji Nagar or nearby landmark..."></textarea>
+            <span style="font-size: 0.72rem; color: #b45309; margin-top: 4px; display: block;">
+              📍 You can also drop your live GPS location on WhatsApp after placing order!
+            </span>
+          </div>
+
+          <div class="form-group">
+            <label for="custNotes">Special Instructions</label>
+            <input type="text" id="custNotes" class="form-input" placeholder="e.g. Extra spicy red chutney, pack sambar hot...">
+          </div>
+        </div>
+
+        <!-- Bill Calculation Summary -->
+        <div class="bill-summary-box">
+          <div class="bill-line">
+            <span>Items Subtotal</span>
+            <span id="cartSubtotal">₹0</span>
+          </div>
+          <div class="bill-line" id="deliveryFeeLine" style="display: none;">
+            <span>Home Delivery Fee (Netaji Nagar)</span>
+            <span id="deliveryFeeVal">₹30</span>
+          </div>
+          <div class="bill-line">
+            <span>Sambar & Chutneys</span>
+            <span style="color: #16a34a; font-weight: 600;">Complimentary</span>
+          </div>
+          <div class="bill-line total">
+            <span>Total Payable</span>
+            <span id="cartGrandTotal">₹0</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Drawer Action Buttons -->
+      <div class="drawer-footer">
+        <button id="whatsappOrderBtn" class="btn-checkout-whatsapp">
+          <span>💬 Send Pre-Order via WhatsApp</span>
+        </button>
+        <button id="directOrderBtn" class="btn-checkout-direct">
+          <span>⚡ Place Direct Simulated Order</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Order Confirmation Live Ticket Modal -->
+  <div class="modal-overlay" id="orderTicketModal">
+    <div class="order-ticket-card">
+      <div class="ticket-header">
+        <div class="check-icon">✓</div>
+        <h3>Pre-Order Placed!</h3>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 4px;">Thank you! Your order is sent to our tawa chefs.</p>
+        <span class="ticket-number-tag" id="ticketTokenNum">Order Token #DP-8302</span>
+      </div>
+
+      <!-- Live Kitchen Progress Timeline -->
+      <div class="order-tracker-timeline">
+        <div class="timeline-step completed" id="step1">
+          <div class="step-circle">1</div>
+          <span class="step-label">Received</span>
+        </div>
+        <div class="timeline-step active" id="step2">
+          <div class="step-circle">2</div>
+          <span class="step-label">On Tawa 🔥</span>
+        </div>
+        <div class="timeline-step" id="step3">
+          <div class="step-circle">3</div>
+          <span class="step-label">Packed Hot</span>
+        </div>
+        <div class="timeline-step" id="step4">
+          <div class="step-circle">4</div>
+          <span class="step-label">Ready</span>
+        </div>
+      </div>
+
+      <div class="ticket-breakdown">
+        <div style="margin-bottom: 6px;"><strong>Customer:</strong> <span id="ticketCustomerName">-</span></div>
+        <div style="margin-bottom: 6px;"><strong>Type:</strong> <span id="ticketOrderMode">-</span></div>
+        <div style="margin-bottom: 6px;"><strong>Items:</strong> <span id="ticketItemsList">-</span></div>
+        <div><strong>Total Bill:</strong> <span id="ticketTotalAmount" style="color: var(--color-primary); font-weight: 800;">₹0</span></div>
+      </div>
+
+      <div class="ticket-actions">
+        <a href="https://wa.me/917290995566?text=Hi%20Dosa%20Point%2C%20checking%20status%20of%20my%20order" target="_blank" class="btn-whatsapp-order" style="text-align: center;">
+          <span>💬 Track on WhatsApp with Shop</span>
+        </a>
+        <button class="btn-tawa-sizzle" id="btnCloseTicket" style="width: 100%;">
+          Close & Back to Menu
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Floating Cart Bar -->
+  <div class="mobile-bottom-cart-bar" id="mobileBottomCartBar" style="display: none;">
+    <div class="mobile-cart-content">
+      <div class="mobile-cart-total">
+        <strong id="mobileCartTotal">₹0</strong>
+        <span id="mobileCartCount">0 items</span>
+      </div>
+      <button class="cart-btn-pill btn-open-cart">
+        <span>View Order</span>
+        <span>→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      
+      <div class="footer-brand">
+        <h4>DOSA POINT</h4>
+        <p style="font-size: 0.86rem; color: #fcd34d; margin-bottom: 10px;">Serving with love since 1983 • A chain of 83 Madras Cafe</p>
+        <p style="font-size: 0.82rem; line-height: 1.5;">
+          Preserving authentic South Indian culinary craftsmanship in Netaji Nagar Market. Authentic dosas, fluffy uttapams, crispy medu vadas, and flavorful chowmein prepared with pure love.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#menuSection">All 22 Menu Items</a></li>
+          <li><a href="#tawaStageSection">Live Cast-Iron Tawa</a></li>
+          <li><a href="#heritageSection">40 Years of Heritage</a></li>
+          <li><a href="#storeInfoSection">Store Location & Timing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Shop Details</h5>
+        <ul>
+          <li><strong>Address:</strong> Shop Number 69, Netaji Nagar Market</li>
+          <li><strong>Timings:</strong> 09:00 AM - 09:30 PM (Daily)</li>
+          <li><strong>Phone / WhatsApp:</strong> 7290995566</li>
+          <li><strong>Home Delivery:</strong> Min. order ₹350/-</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Dosa Point (83 Madras Cafe Chain). All Rights Reserved.</span>
+      <span>Crafted with love for South Indian Food Lovers</span>
+    </div>
+  </footer>
+
+  <!-- Application Scripts -->
+  <script src="js/menu-data.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
